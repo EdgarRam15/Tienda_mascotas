@@ -2,9 +2,6 @@ module tienda_mascotas::tienda {
     use std::string;
     use std::string::String;
     use sui::vec_map::{Self, VecMap};
-    use sui::object;
-    use sui::transfer;
-    use sui::tx_context::TxContext;
 
     const CLAVE_YA_EXISTE: u64 = 1;
     const CLAVE_NO_EXISTE: u64 = 2;
